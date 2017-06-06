@@ -1,28 +1,15 @@
-@media (min-width: 735px) and (max-width: 1400px){
-	[class*= "col-"]{
-		width: 100%
-	}
-	body{
-		background-image: url(../img/landscape.jpg);
-	}
-
-}
 
 @media (min-width: 500px) and (max-width: 734px){
-	[class*="col-"]{
-		width: 100%
-	}
-	body{
+
+	.container{
 		background-image: url(../img/dawn.png);
 	}
 
 }
 
 @media (min-width: 1px) and (max-width: 499px){
-	[class*="col-"]{
-		width: 100%
-	}
-	body{
+
+	.container{
 		background-image: url(../img/maxresdefault.jpg);
 	}
 
